@@ -1,0 +1,30 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id       Int     @id @default(autoincrement())
+  username String  @unique
+  password String
+}
+
+model UserDataRESUME {
+  id                     Int    @id @default(autoincrement())
+  parsed_resume_data_json Json
+}
+
+model UserActionsBoolean {
+  id                        Int     @id @default(autoincrement())
+  ResumeParsed              Boolean @default(false)
+  RaisecDone                Boolean @default(false)
+  SelfRateDone              Boolean @default(false)
+  TechnicalAssessmentDone   Boolean @default(false)
+  BehavioralAssessmentDone  Boolean @default(false)
+  CareerPathSelected        Boolean @default(false)
+  GotDevelopmentRoadmap     Boolean @default(false)
+}

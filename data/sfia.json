@@ -1,0 +1,1441 @@
+{
+  "anim": {
+    "roles": [
+      "Junior Animator",
+      "Animator",
+      "Senior Animator",
+      "Lead Animator",
+      "Animation Director",
+      "Head of Animation"
+    ],
+    "evaluation_areas": {
+      "Junior Animator": {
+        "Knowledge Assessment": [
+          "Animation Principles",
+          "Video Production"
+        ],
+        "Practical Tasks": [
+          "Basic Animation",
+          "Simple Character Movement",
+          "Integration Project"
+        ],
+        "Evaluation Metrics": [
+          "Technical Skills",
+          "Creative Skills",
+          "Professional Skills"
+        ]
+      },
+      "Animator": {
+        "Knowledge Assessment": [
+          "Animation Principles",
+          "Video Production"
+        ],
+        "Practical Tasks": [
+          "Character Animation",
+          "Scene Composition",
+          "Integration Project"
+        ],
+        "Evaluation Criteria": [
+          "Technical Skills",
+          "Creative Skills",
+          "Professional Skills"
+        ]
+      },
+      "Senior Animator": {
+        "Knowledge Assessment": [
+          "Advanced Animation",
+          "Technical Direction"
+        ],
+        "Practical Tasks": [
+          "Advanced Character System",
+          "Production Pipeline Integration",
+          "Integration Project"
+        ],
+        "Evaluation Matrix": [
+          "Technical Expertise",
+          "Project Management",
+          "Leadership"
+        ]
+      },
+      "Lead Animator": {
+        "Knowledge Assessment": [
+          "Team Leadership",
+          "Production Management"
+        ],
+        "Practical Tasks": [
+          "Pipeline Optimization",
+          "Team Management",
+          "Integration Project"
+        ],
+        "Evaluation Matrix": [
+          "Leadership",
+          "Technical Direction",
+          "Project Management"
+        ]
+      },
+      "Animation Director": {
+        "Knowledge Assessment": [
+          "Strategic Direction",
+          "Innovation Management"
+        ],
+        "Practical Tasks": [
+          "Department Strategy",
+          "Innovation Implementation",
+          "Integration Project"
+        ],
+        "Evaluation Matrix": [
+          "Strategic Leadership",
+          "Department Management",
+          "Technical Direction"
+        ]
+      },
+      "Head of Animation": {
+        "Knowledge Assessment": [
+          "Strategic Leadership",
+          "Organizational Innovation"
+        ],
+        "Strategic Planning Tasks": [
+          "Department Vision",
+          "Organizational Development"
+        ],
+        "Executive Project": [
+          "Strategic Repositioning",
+          "Capability Building",
+          "Innovation Culture",
+          "Market Leadership"
+        ],
+        "Evaluation Matrix": [
+          "Executive Leadership",
+          "Organizational Impact",
+          "Stakeholder Management"
+        ]
+      }
+    },
+    "skills_tested": [
+      "Animation timing",
+      "Keyframing",
+      "Tool proficiency",
+      "File management",
+      "Visual style",
+      "Movement quality",
+      "Story clarity",
+      "Design basics",
+      "Task completion",
+      "Communication",
+      "Documentation",
+      "Pipeline integration",
+      "Team mentoring",
+      "Problem-solving",
+      "Leadership",
+      "Strategic vision",
+      "Innovation management"
+    ]
+  },
+  "uiux": {
+    "roles": [
+      "Apprentice UI/UX Designer",
+      "Junior UI/UX Designer",
+      "UI/UX Developer",
+      "Senior UI/UX Designer",
+      "Lead UI/UX Designer",
+      "Head of UI/UX",
+      "UI/UX Director"
+    ],
+    "evaluation_areas": {
+      "Apprentice UI/UX Designer": {
+        "User Needs Analysis": [
+          "Understand current product usage",
+          "Illustrate typical behaviors and needs"
+        ],
+        "Design Integration": [
+          "Support easy mobile navigation",
+          "Enhance readability with white space"
+        ],
+        "Problem Analysis": [
+          "Document usability issues",
+          "Assess user impact and frequency"
+        ],
+        "Practical Task": "Observe and document user interaction with a login form"
+      },
+      "Junior UI/UX Designer": {
+        "User Research": [
+          "Prioritize clear research objectives",
+          "Plan and schedule research sessions"
+        ],
+        "Design Systems": [
+          "Audit and document design inconsistencies",
+          "Standardize button styles"
+        ],
+        "Practical Task": "Create wireframes for a product page with documented decisions"
+      },
+      "UI/UX Developer": {
+        "Technical Implementation": [
+          "Code reusability and performance",
+          "Responsive and scalable UI components"
+        ],
+        "Testing": [
+          "Comprehensive user flow coverage",
+          "Visual regression"
+        ],
+        "Practical Task": "Implement a responsive data grid with sorting and filtering"
+      },
+      "Senior UI/UX Designer": {
+        "Strategic Design": [
+          "Balance innovation with user needs",
+          "Develop scalable standards"
+        ],
+        "Leadership": [
+          "Govern design systems",
+          "Ensure consistency with evolution paths"
+        ],
+        "Practical Task": "Develop a design governance model balancing innovation and consistency"
+      },
+      "Lead UI/UX Designer": {
+        "Strategy & Innovation": [
+          "Focus on strategic value and user impact",
+          "Align innovation with business objectives"
+        ],
+        "Business Alignment": [
+          "Emphasize business value and user impact",
+          "Framework for measuring UX impact"
+        ],
+        "Practical Task": "Create a framework for measuring UX's business impact"
+      },
+      "Head of UI/UX": {
+        "Organizational Strategy": [
+          "Create unique value aligned with business",
+          "Lead design transformation roadmap"
+        ],
+        "Change Management": [
+          "Build coalitions",
+          "Demonstrate value of organizational change"
+        ],
+        "Practical Task": "Develop a design transformation roadmap for enterprise"
+      },
+      "UI/UX Director": {
+        "Enterprise Vision": [
+          "Industry transformation vision",
+          "Build global UX strategies"
+        ],
+        "Strategic Governance": [
+          "Value creation through alignment",
+          "Measure business impact"
+        ],
+        "Integration Project": [
+          "Develop strategic vision",
+          "Design organizational structures",
+          "Gain executive support",
+          "Transform organizational culture"
+        ]
+      }
+    },
+    "skills_tested": [
+      "User research",
+      "Design systems",
+      "Usability analysis",
+      "Wireframing",
+      "Prototyping",
+      "Responsive design",
+      "Performance optimization",
+      "Testing methodologies",
+      "Design governance",
+      "Strategic alignment",
+      "Innovation management",
+      "Team leadership",
+      "Organizational change",
+      "Business impact measurement"
+    ]
+  },
+  "devops": {
+    "roles": [
+      "Junior DevOps Engineer",
+      "DevOps Engineer",
+      "Senior DevOps Engineer",
+      "DevOps Team Lead",
+      "DevOps Architect",
+      "Head of DevOps"
+    ],
+    "evaluation_areas": {
+      "Junior DevOps Engineer": {
+        "Knowledge Assessment": [
+          "CI/CD fundamentals",
+          "Cloud infrastructure basics"
+        ],
+        "Practical Tasks": [
+          "Basic automation script",
+          "Infrastructure setup",
+          "Create a deployment pipeline"
+        ],
+        "Evaluation Metrics": [
+          "Technical skills",
+          "DevOps practices",
+          "Professional skills"
+        ]
+      },
+      "DevOps Engineer": {
+        "Knowledge Assessment": [
+          "Configuration management",
+          "CI pipeline triggers"
+        ],
+        "Practical Tasks": [
+          "Infrastructure automation",
+          "CI/CD pipeline implementation",
+          "Monitoring setup"
+        ],
+        "Evaluation Metrics": [
+          "Technical skills",
+          "Operational skills",
+          "Professional skills"
+        ]
+      },
+      "Senior DevOps Engineer": {
+        "Knowledge Assessment": [
+          "Infrastructure architecture",
+          "Security architecture"
+        ],
+        "Practical Tasks": [
+          "Multi-environment infrastructure",
+          "Security integration",
+          "Advanced automation"
+        ],
+        "Evaluation Metrics": [
+          "Technical leadership",
+          "Operational excellence",
+          "Project management"
+        ]
+      },
+      "DevOps Team Lead": {
+        "Knowledge Assessment": [
+          "Team leadership",
+          "Innovation management"
+        ],
+        "Practical Tasks": [
+          "Develop team strategy",
+          "Process automation",
+          "Security integration"
+        ],
+        "Evaluation Metrics": [
+          "Leadership",
+          "Technical skills",
+          "Management skills"
+        ]
+      },
+      "DevOps Architect": {
+        "Knowledge Assessment": [
+          "Enterprise architecture",
+          "Innovation strategy"
+        ],
+        "Practical Tasks": [
+          "Design platform strategy",
+          "Develop automation framework",
+          "Implement observability platform"
+        ],
+        "Evaluation Metrics": [
+          "Strategic leadership",
+          "Technical excellence",
+          "Enterprise impact"
+        ]
+      },
+      "Head of DevOps": {
+        "Knowledge Assessment": [
+          "Organizational strategy",
+          "Innovation leadership"
+        ],
+        "Practical Tasks": [
+          "DevOps transformation roadmap",
+          "Talent development",
+          "Governance framework"
+        ],
+        "Evaluation Metrics": [
+          "Executive leadership",
+          "Organizational impact",
+          "Stakeholder management"
+        ]
+      }
+    },
+    "skills_tested": [
+      "CI/CD",
+      "Cloud infrastructure",
+      "Automation scripting",
+      "Infrastructure as Code",
+      "Pipeline development",
+      "Monitoring implementation",
+      "Security practices",
+      "Problem-solving",
+      "Documentation",
+      "Team leadership",
+      "Strategic planning",
+      "Innovation management",
+      "Enterprise architecture",
+      "Governance frameworks",
+      "Stakeholder communication"
+    ]
+  },
+  "da": {
+    "roles": [
+      "Junior Data Analyst",
+      "Associate Data Analyst",
+      "Data Analyst",
+      "Senior Data Analyst",
+      "Principal Data Analyst",
+      "Head of Data Analytics"
+    ],
+    "evaluation_areas": {
+      "Junior Data Analyst": {
+        "Technical Skills Assessment": [
+          "Loading data using Python/R",
+          "Handling missing values",
+          "Performing basic data type conversions",
+          "Calculating mean of a column while excluding null values"
+        ],
+        "Data Analysis": [
+          "Calculate descriptive statistics",
+          "Identify top 5 selling products",
+          "Perform trend analysis for monthly sales",
+          "Steps to identify outliers"
+        ],
+        "Visualization": [
+          "Create visualizations for monthly sales trends",
+          "Show product category distribution",
+          "Visualize customer demographics"
+        ],
+        "Communication & Documentation": [
+          "Write a brief report summarizing findings for team lead"
+        ],
+        "Data Management": [
+          "Backing up analysis results",
+          "Organizing data files",
+          "Maintaining version control of scripts"
+        ],
+        "Project Management": [
+          "Prioritizing multiple data requests from team members"
+        ]
+      },
+      "Associate Data Analyst": {
+        "Advanced Technical Skills": [
+          "Developing data pipelines for importing, cleaning, and exporting data",
+          "Including error handling and logging"
+        ],
+        "Complex Analysis": [
+          "Seasonal decomposition of historical sales data",
+          "Identifying key drivers of sales performance",
+          "Building and validating forecasting models"
+        ],
+        "Advanced Visualization": [
+          "Interactive dashboards showing YoY performance metrics",
+          "Geographic distribution of sales",
+          "Customer segment analysis"
+        ],
+        "Stakeholder Communication": [
+          "Writing technical documents for the data team",
+          "Creating executive summaries for management",
+          "Adding annotations for business users"
+        ],
+        "Project Execution": [
+          "Designing project plans for 3-month initiatives including resources, timeline, risks, and deliverables"
+        ]
+      },
+      "Data Analyst": {
+        "Leadership & Mentoring": [
+          "Developing training plans for junior analysts",
+          "Best practices in analysis",
+          "Assessment criteria for essential skills"
+        ],
+        "Complex Problem Solving": [
+          "Designing end-to-end analysis approaches",
+          "Identifying required data sources",
+          "Developing validation methodologies"
+        ],
+        "Advanced Visualization Strategy": [
+          "Real-time monitoring dashboards",
+          "Automated reporting systems",
+          "Ad-hoc analysis tools"
+        ],
+        "Project Management & Governance": [
+          "Managing concurrent projects",
+          "Resource allocation",
+          "Stakeholder management"
+        ]
+      },
+      "Senior Data Analyst": {
+        "Strategic Leadership": [
+          "Building high-performing analytics teams",
+          "Implementing best practices",
+          "Driving innovation in methods"
+        ],
+        "Enterprise Analysis": [
+          "Cross-functional data integration",
+          "Standardized methodologies",
+          "Quality control measures"
+        ],
+        "Advanced Visualization Architecture": [
+          "Enterprise tool selection",
+          "Design standards",
+          "Security considerations"
+        ],
+        "Change Management": [
+          "Implementing new tools",
+          "Training team members",
+          "Measuring adoption success"
+        ]
+      },
+      "Principal Data Analyst": {
+        "Strategic Initiative Leadership": [
+          "Modernizing analytics capabilities",
+          "Implementing advanced technologies",
+          "Driving organizational change"
+        ],
+        "Enterprise Architecture": [
+          "Data integration platforms",
+          "Analysis tools and visualization solutions",
+          "Governance and security measures"
+        ],
+        "Innovation Leadership": [
+          "Identifying emerging technologies",
+          "Evaluating methodologies",
+          "Piloting and scaling innovations"
+        ]
+      },
+      "Head of Data Analytics": {
+        "Strategic Vision": [
+          "Developing 5-year strategic plans for analytics capability development",
+          "Fostering technology innovation",
+          "Business value creation"
+        ],
+        "Governance Framework": [
+          "Enterprise governance covering data quality",
+          "Tool selection and implementation",
+          "Security and compliance"
+        ],
+        "Organizational Leadership": [
+          "Building analytics culture",
+          "Driving digital transformation",
+          "Managing large-scale change"
+        ]
+      }
+    },
+    "skills_tested": [
+      "Data loading and cleaning",
+      "Statistical analysis",
+      "Trend analysis",
+      "Forecasting",
+      "Visualization design",
+      "Interactive dashboards",
+      "Error handling and logging",
+      "Pipeline automation",
+      "Stakeholder communication",
+      "Project planning and execution",
+      "Training and mentoring",
+      "Governance frameworks",
+      "Enterprise architecture",
+      "Innovation leadership",
+      "Strategic planning"
+    ]
+  },
+  "gd": {
+    "roles": [
+      "Junior Game Developer",
+      "Game Developer",
+      "Senior Game Developer",
+      "Lead Game Developer",
+      "Game Designer",
+      "Game Director/Head of Game Development"
+    ],
+    "evaluation_areas": {
+      "Junior Game Developer": {
+        "Knowledge Assessment": [
+          "Game Programming basics",
+          "Game Design fundamentals"
+        ],
+        "Practical Tasks": [
+          "Implement basic game mechanics",
+          "Create a simple collision system",
+          "Develop a basic 2D platformer with physics and scoring"
+        ],
+        "Evaluation Metrics": {
+          "Technical Skills": [
+            "Code functionality",
+            "Debugging",
+            "Optimization"
+          ],
+          "Implementation": [
+            "Project structure",
+            "Documentation",
+            "Version control"
+          ],
+          "Professional Skills": [
+            "Task completion",
+            "Communication",
+            "Time management"
+          ]
+        }
+      },
+      "Game Developer": {
+        "Knowledge Assessment": [
+          "Game architecture best practices",
+          "Efficient game systems design"
+        ],
+        "Practical Tasks": [
+          "Develop a robust game system architecture",
+          "Implement VR integration for interaction and locomotion"
+        ],
+        "Evaluation Metrics": {
+          "Technical Skills": [
+            "System design",
+            "Performance optimization",
+            "VR implementation"
+          ],
+          "Game Development": [
+            "Gameplay mechanics",
+            "User experience",
+            "Physics"
+          ],
+          "Professional Skills": [
+            "Team collaboration",
+            "Documentation",
+            "Problem-solving"
+          ]
+        }
+      },
+      "Senior Game Developer": {
+        "Knowledge Assessment": [
+          "Scalable multiplayer architecture",
+          "Optimization for large open-world games"
+        ],
+        "Practical Tasks": [
+          "Build advanced game systems",
+          "Optimize VR performance for rendering and physics"
+        ],
+        "Evaluation Metrics": {
+          "Technical Leadership": [
+            "Architecture design",
+            "Performance optimization"
+          ],
+          "Operational Excellence": [
+            "Problem resolution",
+            "Knowledge sharing"
+          ],
+          "Project Management": [
+            "Team coordination",
+            "Risk management"
+          ]
+        }
+      },
+      "Lead Game Developer": {
+        "Knowledge Assessment": [
+          "Managing technical debt",
+          "Handling scope creep effectively"
+        ],
+        "Practical Tasks": [
+          "Develop a comprehensive project plan",
+          "Optimize technical architecture for a major game feature"
+        ],
+        "Evaluation Metrics": {
+          "Leadership": [
+            "Team management",
+            "Risk handling",
+            "Decision making"
+          ],
+          "Technical Skills": [
+            "Architecture design",
+            "Quality control"
+          ],
+          "Project Management": [
+            "Timeline management",
+            "Stakeholder communication"
+          ]
+        }
+      },
+      "Game Designer": {
+        "Knowledge Assessment": [
+          "Validating innovative gameplay mechanics",
+          "Platform strategy considerations"
+        ],
+        "Practical Tasks": [
+          "Design core game loops",
+          "Lead innovation initiatives involving novel mechanics"
+        ],
+        "Evaluation Metrics": {
+          "Design Leadership": [
+            "Innovation direction",
+            "System design"
+          ],
+          "Strategic Planning": [
+            "Market analysis",
+            "Platform strategy"
+          ],
+          "Execution": ["Implementation quality", "Documentation"]
+        }
+      },
+      "Game Director/Head of Game Development": {
+        "Knowledge Assessment": [
+          "Studio transformation strategies",
+          "Long-term innovation strategies"
+        ],
+        "Strategic Planning Tasks": [
+          "Develop a studio strategy for market positioning",
+          "Create an innovation roadmap"
+        ],
+        "Evaluation Metrics": {
+          "Executive Leadership": [
+            "Strategic vision",
+            "Innovation direction"
+          ],
+          "Studio Impact": ["Portfolio success", "Market position"],
+          "Stakeholder Management": [
+            "Team leadership",
+            "Industry influence"
+          ]
+        }
+      }
+    },
+    "skills_tested": [
+      "Game mechanics implementation",
+      "Collision detection and resolution",
+      "2D/3D game physics",
+      "VR integration",
+      "Multiplayer architecture design",
+      "Performance optimization",
+      "Innovation in gameplay",
+      "Team management",
+      "Strategic planning",
+      "Stakeholder communication",
+      "Documentation and reporting"
+    ]
+  },
+  "pm": {
+    "roles": [
+      "Associate Product Manager",
+      "Product Manager",
+      "Senior Product Manager",
+      "Lead Product Manager",
+      "Head of Product"
+    ],
+    "evaluation_areas": {
+      "Associate Product Manager": {
+        "Product Strategy": [
+          "Understanding product roadmaps",
+          "Decision-making for diverse user needs",
+          "Retention issue investigation",
+          "Stakeholder presentation"
+        ],
+        "Lifecycle Management": [
+          "Beta phase understanding",
+          "Competitor strategy response",
+          "Feature evaluation and communication planning"
+        ],
+        "Financial Management": [
+          "Customer Acquisition Cost (CAC)",
+          "Budget overrun evaluation",
+          "Improving free-to-paid conversion metrics"
+        ]
+      },
+      "Product Manager": {
+        "Strategic Planning": [
+          "Product vision alignment",
+          "Feature prioritization across customer segments",
+          "Developing yearly B2B SaaS strategy"
+        ],
+        "Stakeholder Management": [
+          "Communication methods for major changes",
+          "Resolving feature priority conflicts",
+          "Managing feature sunsetting"
+        ]
+      },
+      "Senior Product Manager": {
+        "Strategic Leadership": [
+          "Product portfolio alignment with objectives",
+          "New market entry evaluation",
+          "Portfolio rationalization and transition planning"
+        ],
+        "Innovation Management": [
+          "Promoting team innovation",
+          "Evaluating disruptive technology",
+          "Pilot program design and success metrics"
+        ]
+      },
+      "Lead Product Manager": {
+        "Enterprise Strategy": [
+          "Enterprise product strategy alignment",
+          "Major platform redesign impact analysis",
+          "Portfolio transformation governance"
+        ],
+        "Organizational Leadership": [
+          "Driving product-led transformation",
+          "Improvement strategy for silos and communication issues",
+          "Integration strategy post-acquisition"
+        ]
+      },
+      "Head of Product": {
+        "Executive Leadership": [
+          "Strategic direction and capability building",
+          "Evaluation frameworks for long-term decisions",
+          "Transformation to product-led delivery"
+        ],
+        "Strategic Vision": [
+          "Enterprise-level product vision",
+          "Market disruption response strategies",
+          "5-year product vision and implementation roadmap"
+        ]
+      }
+    },
+    "skills_tested": [
+      "Roadmap development",
+      "Decision-making under uncertainty",
+      "Retention analysis",
+      "Lifecycle management",
+      "Customer acquisition cost analysis",
+      "Budget optimization",
+      "Strategic planning",
+      "Feature prioritization",
+      "Stakeholder communication",
+      "Portfolio rationalization",
+      "Innovation management",
+      "Organizational change leadership",
+      "Governance framework design",
+      "Product vision alignment",
+      "Market disruption response"
+    ]
+  },
+  "ai": {
+    "roles": [
+      "Junior Machine Learning Engineer",
+      "Machine Learning Engineer",
+      "Senior Machine Learning Engineer",
+      "Lead Machine Learning Engineer",
+      "AI Developer",
+      "AI/ML Director"
+    ],
+    "evaluation_areas": {
+      "Junior Machine Learning Engineer": {
+        "Programming Skills": [
+          "Handling missing values",
+          "Identifying code bottlenecks",
+          "Implementing basic feature engineering"
+        ],
+        "Data Science Fundamentals": [
+          "Train-test split purpose",
+          "Addressing overfitting",
+          "Class imbalance handling"
+        ],
+        "Machine Learning Frameworks": [
+          "Standardizing features",
+          "Building classification models"
+        ]
+      },
+      "Machine Learning Engineer": {
+        "Advanced Programming": [
+          "Vectorization purpose",
+          "Handling large datasets with batch processing"
+        ],
+        "Model Testing": [
+          "Cross-validation for stability",
+          "Data distribution shift detection"
+        ],
+        "Pipeline Development": [
+          "Streaming data handling",
+          "Validation and error handling"
+        ]
+      },
+      "Senior Machine Learning Engineer": {
+        "Advanced ML Implementation": [
+          "Attention mechanisms",
+          "Custom loss function design"
+        ],
+        "Technical Leadership": [
+          "Code reproducibility",
+          "Mentoring junior team members"
+        ],
+        "System Design": [
+          "Data pipeline scalability",
+          "Error handling in complex systems"
+        ]
+      },
+      "Lead Machine Learning Engineer": {
+        "ML Architecture": [
+          "Distributed ML system considerations",
+          "Model serving strategy"
+        ],
+        "Innovation Leadership": [
+          "Evaluating new techniques",
+          "Piloting innovative ML solutions"
+        ],
+        "System Monitoring": [
+          "Designing monitoring frameworks",
+          "Defining success metrics"
+        ]
+      },
+      "AI Developer": {
+        "Enterprise AI Solutions": [
+          "System integration",
+          "AI vendor evaluation"
+        ],
+        "Strategic Planning": [
+          "Aligning AI initiatives with business goals",
+          "Creating transformation roadmaps"
+        ],
+        "Governance Framework": [
+          "Establishing compliance and standards",
+          "Scaling AI solutions"
+        ]
+      },
+      "AI/ML Director": {
+        "Strategic Leadership": [
+          "Driving cultural change for AI adoption",
+          "Building organizational AI capabilities"
+        ],
+        "Innovation Strategy": [
+          "Evaluating disruptive technologies",
+          "Designing enterprise AI innovation programs"
+        ],
+        "Governance and Transformation": [
+          "Developing transformation strategy",
+          "Operational model definition"
+        ]
+      }
+    },
+    "skills_tested": [
+      "Handling missing data",
+      "Feature engineering",
+      "Train-test split",
+      "Overfitting detection",
+      "Class imbalance solutions",
+      "Model validation",
+      "Vectorization",
+      "Pipeline development",
+      "Scalability",
+      "Custom loss functions",
+      "Attention mechanisms",
+      "Distributed ML systems",
+      "Strategic planning",
+      "AI governance",
+      "Innovation evaluation",
+      "Monitoring and metrics"
+    ]
+  },
+  "qa": {
+    "roles": [
+      "Apprentice QA Tester",
+      "Junior QA Tester",
+      "QA Tester",
+      "Senior QA Tester",
+      "QA Lead / Test Manager",
+      "QA Director / Head of Quality",
+      "Chief Quality Officer"
+    ],
+    "evaluation_areas": {
+      "Apprentice QA Tester": {
+        "Testing Fundamentals": [
+          "Purpose of software testing",
+          "Bug documentation and reporting"
+        ],
+        "Basic Technical Skills": [
+          "Bug tracking tools",
+          "Test report creation"
+        ],
+        "Mini-scenario Tasks": [
+          "Write basic test cases for login forms",
+          "Document and explain test approaches"
+        ]
+      },
+      "Junior QA Tester": {
+        "Test Design": [
+          "Boundary value analysis",
+          "Prioritization of test cases"
+        ],
+        "Requirements Understanding": [
+          "Addressing unclear or contradictory requirements",
+          "Creating test scenarios from requirements"
+        ],
+        "Mini-scenario Tasks": [
+          "Design test cases for password validation",
+          "Analyze ambiguous requirements and create test scenarios"
+        ]
+      },
+      "QA Tester": {
+        "Advanced Testing": [
+          "Regression testing",
+          "Optimizing test suites"
+        ],
+        "Security Testing": [
+          "SQL injection testing",
+          "Identifying and reporting vulnerabilities"
+        ],
+        "Mini-scenario Tasks": [
+          "Design automated test strategies for shopping carts",
+          "Document findings from security tests"
+        ]
+      },
+      "Senior QA Tester": {
+        "Test Leadership": [
+          "Risk assessment and test planning",
+          "Adjusting strategies for schedule delays"
+        ],
+        "Mentoring": [
+          "Hands-on training for new testers",
+          "Guidance in test design"
+        ],
+        "Mini-scenario Tasks": [
+          "Create test strategies for new features",
+          "Design training plans for team members"
+        ]
+      },
+      "QA Lead / Test Manager": {
+        "Strategic Testing": [
+          "Aligning test strategies with business risks",
+          "Piloting new testing approaches"
+        ],
+        "Team Leadership": [
+          "Supporting and directing QA teams",
+          "Improving team morale under tight deadlines"
+        ],
+        "Mini-scenario Tasks": [
+          "Develop quality strategies for product releases",
+          "Design team improvement initiatives"
+        ]
+      },
+      "QA Director / Head of Quality": {
+        "Quality Strategy": [
+          "Enterprise QA strategies",
+          "Improving quality processes"
+        ],
+        "Governance": [
+          "Ensuring consistent quality standards",
+          "Developing governance frameworks"
+        ],
+        "Mini-scenario Tasks": [
+          "Create quality transformation strategies",
+          "Design compliance approaches"
+        ]
+      },
+      "Chief Quality Officer": {
+        "Strategic Leadership": [
+          "Driving organizational quality transformation",
+          "Building executive support for quality initiatives"
+        ],
+        "Innovation Leadership": [
+          "Evaluating and piloting new quality approaches",
+          "Scaling innovation strategies"
+        ],
+        "Mini-scenario Tasks": [
+          "Develop organizational quality visions and strategies",
+          "Design quality innovation frameworks"
+        ]
+      }
+    },
+    "skills_tested": [
+      "Bug documentation and reporting",
+      "Test case creation",
+      "Boundary value analysis",
+      "Regression testing",
+      "Security testing",
+      "Risk assessment",
+      "Team mentoring",
+      "Strategic planning",
+      "Quality governance",
+      "Innovation strategy",
+      "Team leadership",
+      "Compliance design"
+    ]
+  },
+  "cyber": {
+    "roles": [
+      "Junior Security Analyst",
+      "Security Analyst",
+      "Senior Security Analyst",
+      "Security Architect",
+      "Penetration Tester",
+      "Cybersecurity Manager",
+      "CISO"
+    ],
+    "evaluation_areas": {
+      "Junior Security Analyst": {
+        "Knowledge Assessment": [
+          "Understanding CIA Triad",
+          "Purpose of Intrusion Detection Systems",
+          "Incident containment techniques"
+        ],
+        "Technical Skills": [
+          "Identifying port usage (e.g., HTTPS on port 443)",
+          "Log analysis for anomaly detection"
+        ],
+        "Reasoning & Communication": [
+          "Explaining security risks to non-technical audiences",
+          "Prioritizing multiple alerts based on risk factors"
+        ],
+        "Practical Tasks": [
+          "Analyze log entries for suspicious patterns",
+          "Document and report phishing incidents"
+        ]
+      },
+      "Security Analyst": {
+        "Technical Knowledge": [
+          "Indicators of compromise",
+          "Incident response methodologies"
+        ],
+        "Analytical Reasoning": [
+          "Investigating outbound HTTPS traffic spikes",
+          "Prioritizing vulnerability remediation"
+        ],
+        "Practical Tasks": [
+          "Log analysis for advanced threats",
+          "Exploitation risk assessment for web vulnerabilities"
+        ]
+      },
+      "Senior Security Analyst": {
+        "Strategic Analysis": [
+          "Developing zero-trust implementation strategies",
+          "Leading supply chain compromise investigations"
+        ],
+        "Leadership": [
+          "Coordinating incident response teams",
+          "Communicating with executives during crises"
+        ],
+        "Advanced Practical Tasks": [
+          "Threat hunting and detection rule development",
+          "Designing advanced penetration testing plans"
+        ]
+      },
+      "Security Architect": {
+        "Architecture Design": [
+          "Building secure cloud-native architectures",
+          "Implementing zero-trust models"
+        ],
+        "Penetration Testing": [
+          "Exploit development for complex systems",
+          "Mitigating SQL injection in microservices"
+        ],
+        "Scenario-Based Integration": [
+          "Designing enterprise security architectures",
+          "Leading multi-cloud security strategy"
+        ]
+      },
+      "Penetration Tester": {
+        "Vulnerability Assessment": [
+          "Developing risk-based testing approaches",
+          "Validating exploitation scenarios"
+        ],
+        "Advanced Testing": [
+          "Exploiting Kubernetes and service mesh weaknesses",
+          "Developing detection evasion techniques"
+        ]
+      },
+      "Cybersecurity Manager": {
+        "Strategic Leadership": [
+          "Managing security programs during transformations",
+          "Balancing innovation with risk management"
+        ],
+        "Program Management": [
+          "Developing resource plans and success metrics",
+          "Enhancing compliance and governance frameworks"
+        ],
+        "Incident Response Leadership": [
+          "Coordinating response to supply chain compromises",
+          "Developing communication strategies"
+        ]
+      },
+      "CISO": {
+        "Strategic Vision": [
+          "Designing five-year security transformation strategies",
+          "Aligning security innovation with business goals"
+        ],
+        "Crisis Leadership": [
+          "Managing national-scale security incidents",
+          "Developing executive crisis command structures"
+        ],
+        "Innovation Leadership": [
+          "Integrating emerging technologies into security programs",
+          "Driving organizational change for AI and automation"
+        ]
+      }
+    },
+    "skills_tested": [
+      "Incident analysis and containment",
+      "Log analysis",
+      "Vulnerability prioritization",
+      "Zero-trust architecture design",
+      "Penetration testing",
+      "Threat hunting",
+      "Risk-based decision making",
+      "Crisis communication",
+      "Compliance and governance",
+      "Emerging technology evaluation",
+      "Strategic security planning"
+    ]
+  },
+  "ds": {
+    "roles": [
+      "Associate Data Scientist",
+      "Data Scientist",
+      "Principal Data Scientist",
+      "Lead Data Scientist",
+      "Head of Data Science"
+    ],
+    "evaluation_areas": {
+      "Associate Data Scientist": {
+        "Knowledge Assessment": [
+          "Primary data quality dimensions",
+          "Handling missing values in Python",
+          "Supervised vs unsupervised learning"
+        ],
+        "Practical Tasks": [
+          "Write a Python function to clean missing values and perform statistical analysis",
+          "Create a basic data pipeline for data cleaning, transformation, and visualization"
+        ],
+        "Integration Project": [
+          "Build a pipeline to ingest data, clean it, and generate reports"
+        ]
+      },
+      "Data Scientist": {
+        "Knowledge Assessment": [
+          "Techniques for imbalanced classification problems",
+          "Cross-validation purposes"
+        ],
+        "Practical Tasks": [
+          "Develop a machine learning pipeline with feature selection and model comparison",
+          "Implement A/B testing for a large-scale application"
+        ],
+        "Integration Project": [
+          "Design a machine learning pipeline for imbalanced datasets with evaluation and feature selection"
+        ]
+      },
+      "Principal Data Scientist": {
+        "Knowledge Assessment": [
+          "Handling concept drift in production models",
+          "Considerations for distributed ML systems"
+        ],
+        "Practical Tasks": [
+          "Design and implement a distributed ML system with monitoring and retraining",
+          "Develop a data science strategy for AI-driven decision making"
+        ],
+        "Integration Project": [
+          "Build a large-scale distributed machine learning system with automated retraining"
+        ]
+      },
+      "Lead Data Scientist": {
+        "Knowledge Assessment": [
+          "Critical factors for AI adoption success",
+          "Frameworks for mitigating AI bias in production systems"
+        ],
+        "Practical Tasks": [
+          "Develop a complete AI governance framework",
+          "Create testing protocols and incident response plans"
+        ],
+        "Integration Project": [
+          "Implement an AI governance strategy with deployment and monitoring procedures"
+        ]
+      },
+      "Head of Data Science": {
+        "Knowledge Assessment": [
+          "Cultural transformation for data science organizations",
+          "Developing a five-year strategic plan for scaling data science practices"
+        ],
+        "Practical Tasks": [
+          "Create a comprehensive data science transformation strategy",
+          "Develop a target operating model and risk mitigation plan"
+        ],
+        "Integration Project": [
+          "Formulate a strategic vision for enterprise-level data science transformation"
+        ]
+      }
+    },
+    "skills_tested": [
+      "Data cleaning and transformation",
+      "Feature engineering",
+      "Cross-validation",
+      "Model evaluation",
+      "A/B testing",
+      "Distributed machine learning",
+      "Bias detection and mitigation",
+      "Governance framework development",
+      "Strategic planning",
+      "Team leadership",
+      "Risk management",
+      "Monitoring and alerting systems"
+    ]
+  },
+  "cc": {
+    "roles": [
+      "Junior Cloud Engineer",
+      "Cloud Engineer",
+      "Senior Cloud Engineer",
+      "Cloud Architect",
+      "Cloud Director"
+    ],
+    "evaluation_areas": {
+      "Junior Cloud Engineer": {
+        "IT Operations": [
+          "Understanding load balancers",
+          "Analyzing cloud instance performance",
+          "Basic monitoring and troubleshooting"
+        ],
+        "Security": [
+          "Implementing Multi-Factor Authentication (MFA)",
+          "Responding to unauthorized access attempts",
+          "Configuring basic security groups"
+        ],
+        "Practical Tasks": [
+          "Create and configure a virtual machine",
+          "Set up monitoring alerts",
+          "Document system configuration"
+        ]
+      },
+      "Cloud Engineer": {
+        "Cloud Design": [
+          "Reliability principles in system design",
+          "Stateless application tier architecture"
+        ],
+        "Integration Projects": [
+          "Design and implement a three-tier web application",
+          "Include load balancing, auto-scaling, and managed database tiers",
+          "Provide monitoring and logging"
+        ]
+      },
+      "Senior Cloud Engineer": {
+        "Architecture": [
+          "Microservices architecture with serverless patterns",
+          "Consistency models for multi-region financial applications"
+        ],
+        "Practical Tasks": [
+          "Design and implement a microservices architecture",
+          "Set up CI/CD pipelines",
+          "Implement advanced monitoring and security controls"
+        ]
+      },
+      "Cloud Architect": {
+        "Enterprise Architecture": [
+          "Multi-cloud strategy considerations",
+          "Phased migration and hybrid approaches for cloud transformation"
+        ],
+        "Integration Projects": [
+          "Develop an enterprise cloud transformation strategy",
+          "Include target architecture, migration roadmap, and risk mitigation plan"
+        ]
+      },
+      "Cloud Director": {
+        "Strategic Leadership": [
+          "Organizational change management for cloud adoption",
+          "Metrics for measuring business agility in cloud transformations"
+        ],
+        "Practical Assessment": [
+          "Create a comprehensive cloud strategy",
+          "Develop business cases, governance frameworks, and risk management strategies"
+        ]
+      }
+    },
+    "skills_tested": [
+      "Load balancer configuration",
+      "Incident analysis and resolution",
+      "Monitoring and alerting",
+      "Security controls implementation",
+      "Reliability and scalability design",
+      "Microservices architecture",
+      "CI/CD pipeline setup",
+      "Multi-cloud strategy planning",
+      "Risk management",
+      "Organizational change management",
+      "Strategic planning and governance"
+    ]
+  },
+  "sd": {
+    "roles": [
+      "Apprentice Developer",
+      "Junior Developer",
+      "Developer",
+      "Senior Developer (Technical)",
+      "Senior Developer (Management)",
+      "Lead Developer (Technical)",
+      "Principal Developer / Software Architect"
+    ],
+    "evaluation_areas": {
+      "Apprentice Developer": {
+        "Programming": [
+          "Understanding variables in programming",
+          "Code organization using functions",
+          "Debugging simple functions"
+        ],
+        "Testing": [
+          "Unit testing basics",
+          "Reproducing bugs",
+          "Testing edge cases"
+        ],
+        "Practical Tasks": [
+          "Debugging a simple function",
+          "Writing tests for validation functions"
+        ]
+      },
+      "Junior Developer": {
+        "Programming": [
+          "Version control for collaboration",
+          "Adding features with minimal risk",
+          "Basic error handling"
+        ],
+        "Practical Tasks": [
+          "Implement a shopping cart with error handling",
+          "Calculate total prices and handle edge cases"
+        ]
+      },
+      "Developer": {
+        "Programming": [
+          "Design patterns like Repository",
+          "Identifying performance bottlenecks",
+          "Implementing caching mechanisms"
+        ],
+        "Practical Tasks": [
+          "Build a caching decorator with timeout and memory optimization",
+          "Resolve bottlenecks in applications"
+        ]
+      },
+      "Senior Developer (Technical)": {
+        "Architecture": [
+          "Saga pattern for distributed transactions",
+          "Team considerations for microservices adoption"
+        ],
+        "Practical Tasks": [
+          "Design a rate limiter with thread-safe implementation",
+          "Optimize distributed environment performance"
+        ]
+      },
+      "Senior Developer (Management)": {
+        "Technical Leadership": [
+          "Introducing new technology through pilot projects",
+          "Analyzing processes to address bottlenecks"
+        ],
+        "Practical Tasks": [
+          "Propose solutions for improving sprint completion rates",
+          "Create implementation plans with success metrics"
+        ]
+      },
+      "Lead Developer (Technical)": {
+        "Architecture Design": [
+          "Eventual consistency for high availability",
+          "Scaling strategies for massive user bases"
+        ],
+        "Practical Tasks": [
+          "Design a globally distributed system architecture",
+          "Define compliance and scaling strategies"
+        ]
+      },
+      "Principal Developer / Software Architect": {
+        "Strategic Technical Leadership": [
+          "Enterprise architecture aligned with business objectives",
+          "Risk-based legacy system modernization"
+        ]
+      }
+    },
+    "skills_tested": [
+      "Code quality",
+      "Architecture design",
+      "Problem-solving",
+      "Testing approaches",
+      "Caching mechanisms",
+      "Distributed systems",
+      "Team collaboration",
+      "Strategic planning",
+      "Risk mitigation",
+      "Documentation",
+      "Performance optimization",
+      "Leadership"
+    ]
+  }
+}
