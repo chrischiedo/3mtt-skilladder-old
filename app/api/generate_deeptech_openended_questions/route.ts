@@ -20,12 +20,12 @@ const careerToCareeerNameMapper = {
 
 const databaseName: string = 'admin'; // Replace with your database name
 const collectionName: string = 'openendedquestionbank_deeptech'; // Collection name
-const uri = process.env.MONGODB_URI_QB; // MongoDB connection string
+const uri = process.env.MONGODB_URI; // MongoDB connection string
 const client = new MongoClient(uri as string);
 
 // Interface for the week-wise questions structure
 interface WeekWiseQuestions {
-  [week: string]: string[]; // Week name as key and an array of questions
+  [week: string]: any[]; // Week name as key and an array of questions
 }
 
 // Interface for the transformed document
@@ -60,7 +60,7 @@ const getTransformedQuestionBankByCareer = async (
       document.week_wise_questions
     )) {
       transformedWeekWiseQuestions[week] =
-        Object.values(levels).flat();
+        (Object.values(levels as any).flat() as any[]);
     }
 
     // Construct and return the transformed document
@@ -85,11 +85,11 @@ const getTransformedQuestionBankByCareer = async (
 const getRandomizedQuestions = async (
   career: string,
   cohort: string
-): Promise<string[] | undefined> => {
+): Promise<any[] | undefined> => {
   const result = await getTransformedQuestionBankByCareer(career);
 
   if (result) {
-    const selectedQuestions: string[] = [];
+    const selectedQuestions: any[] = [];
 
     // Select 5 random questions from each week
     for (const [week, questions] of Object.entries(
@@ -157,7 +157,7 @@ export const POST = async (req: Request) => {
     }
 
     const careerKey = formData.course;
-    const careerName = careerToCareeerNameMapper[careerKey];
+    const careerName = careerToCareeerNameMapper[careerKey as keyof typeof careerToCareeerNameMapper];
     const cohort = formData.cohort;
 
     const openEndedQuestions = await getRandomizedQuestions(

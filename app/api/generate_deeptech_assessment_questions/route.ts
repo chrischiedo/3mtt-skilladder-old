@@ -20,8 +20,13 @@ const careerToCareeerNameMapper = {
 };
 const databaseName: string = 'admin'; // Replace with your database name
 const collectionName: string = 'mcqquestionbank_deeptech'; // Collection name
-const uri = process.env.MONGODB_URI_QB; // MongoDB connection string
-const client = new MongoClient(uri as string);
+const uri = process.env.MONGODB_URI; // MongoDB connection string
+
+if (!uri) {
+  throw new Error('MONGODB_URI environment variable is not set');
+}
+
+const client = new MongoClient(uri);
 
 interface McqQuestion {
   question_text: string;

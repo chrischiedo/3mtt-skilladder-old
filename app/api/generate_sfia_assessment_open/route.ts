@@ -21,12 +21,12 @@ const careerToCareeerNameMapper = {
 
 const databaseName: string = 'admin'; // Replace with your database name
 const collectionName: string = 'openendedquestionbank'; // Collection name
-const uri = process.env.MONGODB_URI_QB; // MongoDB connection string
+const uri = process.env.MONGODB_URI; // MongoDB connection string
 const client = new MongoClient(uri as string);
 
 // Interface for the level-wise questions structure
 interface LevelWiseQuestions {
-  [level: string]: string[]; // Level name as key and an array of questions
+  [level: string]: any[]; // Level name as key and an array of questions
 }
 
 // Interface for the transformed document
@@ -60,11 +60,11 @@ const getTransformedQuestionBankByCareer = async (
     for (const [week, levels] of Object.entries(
       document.week_wise_questions
     )) {
-      for (const [level, questions] of Object.entries(levels)) {
+      for (const [level, questions] of Object.entries(levels as any)) {
         if (!transformedLevelWiseQuestions[level]) {
           transformedLevelWiseQuestions[level] = [];
         }
-        transformedLevelWiseQuestions[level].push(...questions);
+        transformedLevelWiseQuestions[level].push(...(questions as any[]));
       }
     }
 
@@ -138,7 +138,7 @@ export const POST = async (req: Request) => {
     }
 
     const careerKey = formData.course;
-    const careerName = careerToCareeerNameMapper[careerKey];
+    const careerName = careerToCareeerNameMapper[careerKey as keyof typeof careerToCareeerNameMapper];
 
     const mcqQuestionsByLevel = await getRandomizedQuestionsByLevel(
       careerName

@@ -1,9 +1,9 @@
 // lib/mongodb.ts
 import { MongoClient } from "mongodb";
 
-const uri = process.env.MONGODB_URI_QB as string; // MongoDB connection string
+const uri = process.env.MONGODB_URI as string; // MongoDB connection string
 if (!uri) {
-  throw new Error("Please define the MONGODB_URI_QB environment variable.");
+  throw new Error("Please define the MONGODB_URI environment variable.");
 }
 
 let client: MongoClient | null = null;
