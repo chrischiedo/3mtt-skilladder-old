@@ -107,7 +107,7 @@ export default async function Home() {
                 your full potential and excel in your career.
               </p>
             </div>
-            <div className="flex flex-col lg:flex-row gap-3 pb-16 space-y-">
+            <div className="flex flex-col lg:flex-row gap-3 pb-16">
               <Link href="/instructions">
                 <Button
                   size="lg"
@@ -168,3 +168,4 @@ export default async function Home() {
       </div>
     </div>
   );
+}

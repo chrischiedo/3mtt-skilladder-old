@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import Image from 'next/image';
 
-export const SectionBlock = ({ title, description, image }) => (
+export const SectionBlock = ({ title, description, image }: { title?: any; description?: any; image?: any } = {}) => (
   <div className="w-full  py-20 lg:py-40">
     <div className="container mx-auto">
       <div className="grid grid-cols-1 gap-6  lg:grid-cols-2">
